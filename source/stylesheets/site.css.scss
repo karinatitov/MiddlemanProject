@@ -1,9 +1,8 @@
-// body {
-//   background-image: url(http://il2.picdn.net/shutterstock/videos/15747715/thumb/1.jpg);
-//   background-size: 100%;
-// }
+$border: double black;
 
-.footer {
+body {
+
+  .footer {
 height: 60px;
 padding: 20px 
 }
@@ -24,4 +23,12 @@ padding: 20px
 
 .is-two-fifths {
  margin-bottom: 100px;
+}
+
+.tile, .field {
+  border: $border;
+}
+button {
+  width: 100%;
+}
 }
