@@ -1,5 +1,6 @@
 $border: double black;
 
+
 body {
 
   .footer {
@@ -28,7 +29,10 @@ padding: 20px
 .tile, .field {
   border: $border;
 }
-button {
-  width: 100%;
+
+h1 {
+  font: 20px, bolder
 }
+
+
 }
