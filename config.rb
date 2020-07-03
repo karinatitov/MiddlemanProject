@@ -5,6 +5,12 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+# For hosting with github pages
+
+activate :gh_pages do |gh_pages|
+  gh_pages.remote = 'git@github.com:an_absolute/MiddlemanProject.git'
+end
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
